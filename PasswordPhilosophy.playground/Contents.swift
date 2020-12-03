@@ -6,12 +6,12 @@ func parse() -> [Data] {
     let report = Bundle.main.path(forResource: "Passwords", ofType: "txt")!
     let content = try! String(contentsOfFile: report)
     let components = content.components(separatedBy: "\n")
-    var dict: [(String, String)] = []
+    var data: [Data] = []
     components.forEach({
         let components = $0.components(separatedBy: ": ")
-        dict.append((components[0], components[1]))
+        data.append((components[0], components[1]))
     })
-    return dict
+    return data
 }
 
 func validPasswordsFromOldCompany(containedIn data: [Data]) -> [Data] {
@@ -30,7 +30,6 @@ func validPasswordsFromOldCompany(containedIn data: [Data]) -> [Data] {
         // Filter value to obtain all occurences of delimiter within value, then compare count of found delimiters to compiled range
         let delimiters = value.filter({ $0 == delimiter })
         if range.contains(delimiters.count) {
-            print(delimiter, delimiters, range)
             valid.append((parameter: parameter, value: value))
         }
     }
