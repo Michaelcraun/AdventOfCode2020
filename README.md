@@ -15,6 +15,6 @@ Follow Eric Wastl, the creator of Advent of Code, on [Twitter](https://twitter.c
 
 Follow me on [Twitter]() if that tickles your fancy.
 
-<sup>1</sup>I do not own, operate, or at all take ownership of Advent of Code. It is, in its entirety, owned and operated by Eric Wastl and all credit due is due to him.
+<sup>1</sup> I do not own, operate, or at all take ownership of Advent of Code. It is, in its entirety, owned and operated by Eric Wastl and all credit due is due to him.
 
-<sup>2</sup>The money donated will not go to me. The donation is made to the creator of Advent of Code, Eric Wastl.
+<sup>2</sup> The money donated will not go to me. The donation is made to the creator of Advent of Code, Eric Wastl.
